@@ -13,3 +13,7 @@ Diese JSON-Dateien werden bei Aufruf des Scripts `insert_reference_data.sh` an d
 ```bash
 insert_reference_data.sh <OKAPI> <TENANT> <OKAPIUSERNAME> <OKAPIPASSWORD>
 ```
+
+## Hilfreiche Ressourcen
+
+- Den Namen eines Endpunkts kann man ermitteln, in dem man ihn auf <https://dev.folio.org/reference/api/> ermittelt. Die Art-des-Inhalts-Codes werden z. B. an `/nature-of-content-terms` gesendet, siehe <https://s3.amazonaws.com/foliodocs/api/mod-inventory-storage/r/nature-of-content-term.html>.
